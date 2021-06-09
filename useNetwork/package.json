@@ -1,0 +1,25 @@
+{
+  "name": "@ziphooks/use-network",
+  "version": "1.0.0",
+  "description": "React Hook for get if network is connected.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zipperdev/Ziphooks.git"
+  },
+  "keywords": [
+    "react",
+    "hooks",
+    "network"
+  ],
+  "author": "zipperdev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zipperdev/Ziphooks/issues"
+  },
+  "homepage": "https://github.com/zipperdev/Ziphooks#readme",
+  "peerDependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}

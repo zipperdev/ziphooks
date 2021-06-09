@@ -1,0 +1,26 @@
+{
+  "name": "@ziphooks/use-axios",
+  "version": "1.0.0",
+  "description": "React Hook for Requesting and Refetching API. You Can Request API More Convenient.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zipperdev/Ziphooks.git"
+  },
+  "keywords": [
+    "react",
+    "hooks",
+    "axios"
+  ],
+  "author": "zipperdev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zipperdev/Ziphooks/issues"
+  },
+  "homepage": "https://github.com/zipperdev/Ziphooks#readme",
+  "peerDependencies": {
+    "axios": "^0.21.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "@ziphooks/use-before-top",
+  "version": "1.0.0",
+  "description": "React Hook for detecting if mouse is located at browser's top bar. You can use this React Hook for prevent exiting without saving.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zipperdev/Ziphooks.git"
+  },
+  "keywords": [
+    "react",
+    "hooks",
+    "block",
+    "beforeTop"
+  ],
+  "author": "zipperdev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zipperdev/Ziphooks/issues"
+  },
+  "homepage": "https://github.com/zipperdev/Ziphooks#readme",
+  "peerDependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
