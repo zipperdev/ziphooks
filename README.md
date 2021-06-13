@@ -9,6 +9,7 @@ Zipped Useful React Hooks Ready To Install With NPM.
 | useClick | React Hook for detecting clicked a component and react it | [Documentation](https://github.com/zipperdev/Ziphooks/tree/master/useClick) | [NPM Page](https://www.npmjs.com/package/@ziphooks/use-click) |
 | useFadeIn | React Hook for fade in a selected element | [Documentation](https://github.com/zipperdev/Ziphooks/tree/master/useFadeIn) | [NPM Page](https://www.npmjs.com/package/@ziphooks/use-fade-in) |
 | useFullscreen | React Hook for change a component to fullscreen mode and normal mode | [Documentation](https://github.com/zipperdev/Ziphooks/tree/master/useFullscreen) | [NPM Page](https://www.npmjs.com/package/@ziphooks/use-fullscreen) |
+| useGeolocation | React Hook for get geolocation about client | [Documentation](https://github.com/zipperdev/Ziphooks/tree/master/useGeolocation) | [NPM Page](https://www.npmjs.com/package/@ziphooks/use-geolocation) |
 | useInput | React Hook for validate a value and change value | [Documentation](https://github.com/zipperdev/Ziphooks/tree/master/useInput) | [NPM Page](https://www.npmjs.com/package/@ziphooks/use-input) |
 | useNetwork | React Hook for get if network is connected | [Documentation](https://github.com/zipperdev/Ziphooks/tree/master/useNetwork) | [NPM Page](https://www.npmjs.com/package/@ziphooks/use-network) |
 | useNotification | React Hook for notify on browser | [Documentation](https://github.com/zipperdev/Ziphooks/tree/master/useNotification) | [NPM Page](https://www.npmjs.com/package/@ziphooks/use-notification) |
@@ -230,6 +231,47 @@ function App() {
 | element      | React Ref | A ref to add to the element that you want to make fullscreen |
 | triggerFull  | Function  | A function to make the element enter fullscreen |
 | exitFull     | Function  | A function to make the document exit fullscreen |
+<br />
+
+# @ziphooks/use-geolocation
+
+React Hook for get geolocation about client.
+
+## Installation
+
+#### yarn
+
+`yarn add @ziphooks/use-geolocation`
+
+#### npm
+
+`npm i @ziphooks/use-geolocation`
+
+## Usage
+
+```js
+import React from "react";
+import useGeolocation from "@ziphooks/use-geolocation";
+
+function App() {
+  const { lat, lon, reload } = useGeolocation();
+  return (
+    <>
+      <h1>latitude: {lat}</h1>
+      <h1>longitude: {lon}</h1>
+      <button onClick={reload}>Reload</button>
+    </>
+  );
+};
+```
+
+### Return
+
+| Return value | Type | Description |
+| -- | -- | -- |
+| lat | Number | A number latitude of current geolocation |
+| lon | Number | A number longitude of current geolocation |
+| reload | Function | A function to reload geolocation |
 <br />
 
 # @ziphooks/use-input
